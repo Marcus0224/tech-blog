@@ -20,4 +20,4 @@ A CMS style  blog site wehre developers can publish their blog post and comment 
   ![](public/assets/blog.png)
 
 ## Link
-
+https://floating-beach-88217.herokuapp.com

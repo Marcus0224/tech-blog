@@ -17,5 +17,7 @@ A CMS style  blog site wehre developers can publish their blog post and comment 
   - Heroku & JawsDB
 
   ## Screenshots 
+  ![](public/assets/blog.png)
 
+## Link
 

@@ -1,0 +1,108 @@
+:root{
+    background-color: #ecc488;
+    background-image: url('/stylesheets/images/background-sun.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:50%;
+    font-family: 'Lato', sans-serif;
+  } 
+  
+  h2 ,   
+  a ,
+  h3,
+  h1 {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .header {
+      padding: 2px;
+      text-align: center;
+      background-color:#F3D5C0;
+      color: rgb(19, 18, 18);
+      font-size: 30px;
+    }
+    .uk-button-danger {
+      background-color: #F5CEBE;
+      color: #fff;
+      border: 1px solid transparent;
+  }
+  .uk-navbar-container:not(.uk-navbar-transparent) {
+    background-color:#F3D5C0 ;
+  }
+  .uk-comment-primary {
+    padding: 30px;
+    background-color: #fae5c4;
+    opacity: 0.9;
+  }
+  .uk-border-rounded {
+    border-radius: 20px;
+  }
+  
+  .footer {
+    background-color: #ecc488;
+      position: fixed;
+      height: 40px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: black;
+      text-align: center;
+      display: flex;
+    justify-content: space-between;
+  }
+  
+  marquee {
+    font-size: x-large;
+    font-family:'Lato', sans-serif;;
+  }
+  
+  .uk-position-center {
+    top: calc(50% - var(--uk-position-margin-offset));
+    left: calc(50% - var(--uk-position-margin-offset));
+    --uk-position-translate-x: -50%;
+    --uk-position-translate-y: -50%;
+    transform: translate(var(--uk-position-translate-x),var(--uk-position-translate-y));
+    width: max-content;
+  }
+  .uk-card-default {
+    background-color: rgba(255, 255, 255, 0);
+    color: #666;
+  
+  }
+  
+  .uk-comment-primary {
+    padding: 20px;
+    margin-left: 30px;
+    background-color: #fae5c4;
+    opacity: 0.9;
+  }
+  .uk-margin-top {
+    margin-top: 150px!important;
+  }
+  .uk-link, a {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .uk-position-right {
+    top: 0;
+    bottom: 0;
+  right: 50;
+  
+  }
+  .uk-navbar-nav>li>a {
+    color: black;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    font-size: large;
+    transition-property: color,background-color;
+    font-family:'Lato', sans-serif;;
+  }
+  .uk-grid {
+    display:center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
